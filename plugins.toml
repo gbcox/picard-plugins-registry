@@ -91,6 +91,25 @@ de = "Dieses Plugin fasst alle Performer-Tags in einer Mehrwertvariablen `%_perf
 fr = "Ce plugin combine toutes les balises performer dans une variable à valeurs multiples `%_performers%`."
 
 [[plugins]]
+id = "cover-jxl"
+uuid = "e0188696-1aac-4ff2-9ae6-66835b9aec11"
+name = "External cover to JPEG XL"
+description = "Losslessly convert Picard's externally saved JPEG and PNG covers to JPEG XL"
+git_url = "https://codeberg.org/gbcox/picard-cover-jxl"
+categories = [
+  "coverart",
+]
+trust_level = "community"
+authors = [
+  "Gerald Cox",
+]
+added_at = "2026-09-27T21:05:23Z"
+updated_at = "2026-09-27T21:05:23Z"
+license = "GPL-3.0-or-later"
+license_url = "https://www.gnu.org/licenses/gpl-3.0.html"
+versioning_scheme = "semver"
+
+[[plugins]]
 id = "create-plugin"
 uuid = "0d44fd69-3241-4315-b5ec-aa87304e4c1b"
 name = "Create Local Plugin"
